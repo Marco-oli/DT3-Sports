@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1640px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Classes e IDS */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.lupa {
+    width: 28px;
+    height: 28px;
+    padding-top: 10px;
+    padding-top: 52px;
+    padding-left: 20px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar div{
+    width: 260px;
+    height: 1316px;
+    background-color: red;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 57px;
+}
+
+#navbar div img {
+    margin-top: 27px;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar a {
+    color: #363636;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 63px;
+    margin-top: 54px;
+    font-weight: bold;
+}
+
