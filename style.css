@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    width: 1640px;
+    max-width: 1640px;
 }
 
 li {
@@ -21,8 +21,8 @@ a {
 /* Classes e IDS */
 
 .container {
-    width: 80%;
-    margin: auto;
+    max-width: 80%;
+    margin: 0 auto;
     margin-top: -15px;
 }
 
@@ -64,9 +64,11 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     padding-left: 55px;
-    margin-top: 30px;
+    margin-top: 45px;
     font-weight: bold;
 }
+
+/* Ids e classes da Section Elite Series*/
 
 #series {
     display: flex;
@@ -92,11 +94,10 @@ a {
     font-size: 111px;
     font-weight: 900;
     font-family: 'Open Sans', sans-serif;
-    margin-top: -50px;
+    margin-top: -18px;
     margin-bottom: 0px;
     letter-spacing: 10px;
     margin-left: -6px;
-    padding-top: 4px;
 }
 
 .cadeira {
@@ -115,14 +116,16 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
+
+/* IDS e classes da Section Welcom*/
 
 #welcom {
     display: flex;
-    margin-top: -500px;
+    margin-top: -480px;
     position: absolute;
     padding-left: 89px;
-    margin-left: -6px;
 }
 
 #welcom div h2 {
@@ -156,10 +159,118 @@ a {
     letter-spacing: 1px;
     line-height: 32px;
     width: 425px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 #welcom div img {
-    margin-left: -100px;
+    margin-left: -110px;
     margin-top: -35px;
+}
+
+/* IDS e classes da Section Produtos*/
+
+#produtos {
+    margin-top: 400px;
+}
+
+#produtos h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #363636;
+    font-size: 43px;
+    font-weight: lighter;
+    padding-left: 100px;
+}
+
+
+.contencao {
+    width: 90%;
+    height: 732px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.contencao div h1 {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.contencao p {
+    width: 397px;
+    height: 163px;
+    display: block;
+    float: right;
+    font-size: 19px;
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    line-height: 34px;
+    padding-right: 86px;
+    margin-top: -120px;
+}
+
+.contencao p::before {
+    content: '';
+    background-color: #959595;
+    height: 132px;
+    width: 3px;
+    display: block;
+    margin-left: -42px;
+    margin-top: 0px;
+    padding-top: 10px;
+    position: absolute;
+}
+
+.contencao h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    width: 452px;
+    height: 163px;
+    line-height: 67px;
+    color: #363636;
+    padding-left: 228px;
+    margin-bottom: -45px;
+    margin-top: 45px;
+}
+
+.contencao h1 span {
+    color: #FF0808;
+}
+
+.imagebg {
+    width: 881px;
+    height: 501px;
+    background-image: url(./imagens/cadeira0.png);
+    background-repeat: no-repeat;
+    margin: 73px auto;
+}
+
+.anterior {
+    float: left;
+    position: relative;
+    margin-top: -720px;
+    width: 20px;
+    height: 54px;
+    background-image: url(imagens/seta-esq.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.proximo {
+    float: right;
+    position: relative;
+    margin-top: -720px;
+    width: 20px;
+    height: 54px;
+    background-image: url(imagens/seta-dir.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#player {
+    margin-top: 800px;
+    display: flex;
 }
 
