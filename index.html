@@ -6,54 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Processo Seletivo DT3</title>
-    <link rel="stylesheet" type="text" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text" src="main.js"></script>
 </head>
 
 <body>
-    <!--Navbar -->
-    <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Empresa</li>
-                <li>Produtos</li>
-                <li>Suporte</li>
-            </ul>
-            <img src="imagens/DT3sports all white logo.png" alt="logotipo">
-            <ul>
-                <li>Blog</li>
-                <li>Carreira</li>
-                <li>Contato</li>
-            </ul>
-            <img src="imagens/lupa.png" alt="Pesquisar">
-        </nav>
-    </header>
-    <!--Fim da Navbar-->
+    <div class="container">
+        <!--Navbar -->
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <a href="default.asp">Home</a>
+                    </li>
+                    <li>
+                        <a href="news.asp">Empresa</a>
+                    </li>
+                    <li>
+                        <a href="contact.asp">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="about.asp">Suporte</a>
+                    </li>
+                </ul>
+                <div>
+                    <img src="imagens/DT3sports all white logo.png" alt="logotipo">
+                </div>
+                <ul>
+                    <li>
+                        <a href="default.asp">Blog</a>
+                    </li>
+                    <li>
+                        <a href="news.asp">Carreira</a>
+                    </li>
+                    <li>
+                        <a href="contact.asp">Contato</a>
+                    </li>
+                </ul>
+                <img src="imagens/lupa.png" class="lupa" alt="Pesquisar">
+            </nav>
+        </header>
+        <!--Fim da Navbar-->
 
-    <!--Section Elite Series-->
-    <section>
+        <!--Section Elite Series-->
+        <section id="series">
             <div>
                 <img src="imagens/Elite series SVG.png" alt="">
                 <p>CONFIRA AS MELHORES CADEIRAS GAMER</p>
-                <h1>ELITE SERIES</h1>
+                <h1>ELITE</h1>
+                <h1>SERIES</h1>
                 <button class="saiba-mais">Saiba mais</button>
             </div>
             <div>
-                <img src="imagens/Rhino-(2).png" alt="Cadeira Gamer">
+                <img class="cadeira" src="imagens/Rhino-(2).png" alt="Cadeira Gamer">
             </div>
         </section>
         <!--Fim da Section Elite Series-->
 
         <!--Section Welcom to DT3-->
-    <section>
+        <section id="welcom">
             <div>
                 <h2>Welcom to</h2>
-                <span>DT3 sports Ltd.</span>
+                <span>DT3sports Ltd.</span>
                 <p>DT3sports é a marca líder em cadeiras gamer no Brasil. Sendo a mais vendida, possui um catálogo
                     abrangente
-                    que atende todas as necessidades e público Brasileiro. Sempre prezando pela qualidade e design gamer.
+                    que atende todas as necessidades e público Brasileiro. Sempre prezando pela qualidade e design
+                    gamer.
                 </p>
                 <button class="saiba-mais">Saiba mais</button>
             </div>
@@ -72,35 +90,21 @@
         <!--Fim da Section Welcom to DT3-->
 
         <!--Categoria de Produtos-->
-    <section>
+        <section id="produtos">
             <h2>Categoria de Produtos</h2>
-            <div>
-                <div>
-                    <button>
-                        <img src="imagens/seta-esq.png" alt="">
-                    </button>
-                </div>
-                <hgroup>
-                    <h1>CATEGORIA</h1>
-                    <h1>GAMING SERIES</h1>
-                </hgroup>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, distinctio cumque vel ratione non
-                    odit placeat rem voluptatibus perspiciatis nobis. Necessitatibus recusandae amet deleniti hic labore
-                    ipsam, quas cum odit!</p>
-                <div>
-                    <button>
-                        <img src="imagens/seta-dir.png" alt="">
-                    </button>
-                </div>
+            <div class="contencao">
+                <h1>CATEGORIA <span>ELITE SERIES</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum, magna at laoreet pharetra, elit mauris dignissim urna, ac volutpat.</p>
+                <div class="imagebg"></div>
+                <div class="anterior"></div>
+                <div class="proximo"></div>
             </div>
-            <div>
-                <img src="imagens/series_0002_Camada-1.png" alt="">
-            </div>
+
         </section>
         <!--Fim da Section Categoria de Produtos-->
 
         <!--Section com Player-->
-    <section>
+        <section id="player">
             <div>
                 <img src="imagens/IMG_2710.png" alt="">
                 <img src="imagens/00001278.png" alt="">
@@ -113,7 +117,7 @@
         <!--Fim da Section com Player-->
 
         <!--Section com Podutos-->
-    <section>
+        <section>
             <div>
                 <div>
                     <button>
@@ -149,15 +153,15 @@
         <!--Fim da Section com Produtos-->
 
         <!--Footer-->
-    <footer>
+        <footer>
             <div>
                 <img src="imagens/DT3sports all white logo.png" alt="logotipo">
                 <p>Cadeiras Gamer</p>
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Google</a>
-            <a href="#">b6</a>
-            <a href="#">P</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Google</a>
+                <a href="#">b6</a>
+                <a href="#">P</a>
             </div>
             <div>
                 <span>GENERAL</span>
@@ -194,5 +198,7 @@
             </div>
         </footer>
         <!--Fim do Footer-->
+    </div>
 </body>
+
 </html>
