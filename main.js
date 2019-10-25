@@ -1,6 +1,23 @@
-var imgs = []
+window.load = slide(1);
 
-function preCarregamento(){
-    imgs[0] = new Image()
-    imgs[0].src="imagens/cadeira0.png";
+var bgNumber = 1;
+
+function slide(n){
+    var allBgs = 3;
+
+    document.getElementById('imagebg').style.backgroundImage = "url('./imagens/"+n+".png')";
+}
+
+function anterior(){
+    if(bgNumber>1){
+        bgNumber--;
+        slide(bgNumber);
+    }
+}
+
+function proximo(){
+    if(bgNumber<3){
+        bgNumber++;
+        slide(bgNumber);
+    }
 }
