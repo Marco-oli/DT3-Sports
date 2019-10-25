@@ -7,7 +7,7 @@
 }
 
 body {
-    max-width: 1640px;
+    width: 1640px;
 }
 
 li {
@@ -185,20 +185,20 @@ a {
 }
 
 
-.contencao {
-    width: 90%;
+#contencao {
+    width: 100%;
     height: 732px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
 }
 
-.contencao div h1 {
+#contencao div h1 {
     width: 50%;
     display: block;
     float: left;
 }
 
-.contencao p {
+#contencao p {
     width: 397px;
     height: 163px;
     display: block;
@@ -207,11 +207,11 @@ a {
     color: #363636;
     font-family: 'Roboto', sans-serif;
     line-height: 34px;
-    padding-right: 86px;
+    padding-right: 110px;
     margin-top: -120px;
 }
 
-.contencao p::before {
+#contencao p::before {
     content: '';
     background-color: #959595;
     height: 132px;
@@ -223,19 +223,19 @@ a {
     position: absolute;
 }
 
-.contencao h1 {
+#contencao h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 70px;
     width: 452px;
     height: 163px;
     line-height: 67px;
     color: #363636;
-    padding-left: 228px;
+    padding-left: 210px;
     margin-bottom: -45px;
     margin-top: 45px;
 }
 
-.contencao h1 span {
+#contencao h1 span {
     color: #FF0808;
 }
 
@@ -252,25 +252,70 @@ a {
     position: relative;
     margin-top: -720px;
     width: 20px;
-    height: 54px;
-    background-image: url(imagens/seta-esq.png);
-    background-repeat: no-repeat;
+    height: 52px;
     cursor: pointer;
+    color: #FF0000;
+    text-align: center;
+    font-size: 80px;
+    line-height: 60px;
+    padding-left: 45px;
 }
 
 .proximo {
     float: right;
     position: relative;
     margin-top: -720px;
-    width: 20px;
-    height: 54px;
-    background-image: url(imagens/seta-dir.png);
-    background-repeat: no-repeat;
+    width: 44px;
+    height: 52px;
     cursor: pointer;
+    color: #FF0000;
+    text-align: center;
+    font-size: 80px;
+    line-height: 60px;
 }
 
+/* IDS e classes da Section Player*/
+
 #player {
-    margin-top: 800px;
+    position: absolute;
+    width: 100%;
     display: flex;
+    margin-top: 100px;
+}
+
+#player div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -164px;  
+}
+
+#player div::after {
+    content:'';
+        position:absolute;
+        top:0;
+        bottom:0;
+        left: -166px;;
+        right:0;
+        background-color:rgba(0,0,0,.6);
+}
+
+#player div img {
+    width: 394px;
+    height: 395px;
+}
+
+#player div button {
+    border: 1px solid #FFFFFF;
+    width: 106px;
+    height: 146px;
+    align-items: center;
+    position: absolute;
+    margin-left: 918px;
+    margin-top: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
 }
 
