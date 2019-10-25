@@ -119,6 +119,7 @@ a {
     cursor: pointer;
 }
 
+
 /* IDS e classes da Section Welcom*/
 
 #welcom {
@@ -320,6 +321,18 @@ a {
     cursor: pointer;
 }
 
+#video {
+    display: none;
+}
+
+.animate {
+    background-color: grey;
+    width: 86%;
+    height: 385px;
+    position: absolute;
+    margin-top: 512px;
+}
+
 /*IDS e Classes da section Cadeiras*/
 
 #cadeiras {
@@ -329,6 +342,7 @@ a {
     justify-content: center;
     margin-top: 700px;
     text-align: center;
+    padding-top: 248px;
 }
 
 #cadeiras div.anterior {
