@@ -244,7 +244,7 @@ a {
     height: 501px;
     background-image: url(./imagens/cadeira0.png);
     background-repeat: no-repeat;
-    margin: 73px auto;
+    margin: 74px auto;
 }
 
 .anterior {
@@ -319,3 +319,54 @@ a {
     cursor: pointer;
 }
 
+/*IDS e Classes da section Cadeiras*/
+
+#cadeiras {
+    display: flex;
+    height: 610px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 700px;
+    text-align: center;
+}
+
+#cadeiras div.anterior {
+    margin-top: 85px;
+    margin-right: 65px;
+}
+
+#cadeiras div.proximo {
+    margin-top: 85px;
+    margin-left: 65px;
+}
+
+#cadeiras div h2 {
+    font-size: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#cadeiras div h4 {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+#cadeiras div span {
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+#cadeiras div button {
+    margin-top: 20px;
+}
+
+.cad-ponta {
+    opacity: 0.45;
+}
+
+.cad-meio {
+    opacity: 0.80;
+}
