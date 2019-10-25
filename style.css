@@ -190,6 +190,7 @@ a {
     height: 732px;
     overflow: hidden;
     position: relative;
+    
 }
 
 #contencao div h1 {
@@ -239,12 +240,12 @@ a {
     color: #FF0808;
 }
 
-.imagebg {
+#imagebg {
     width: 881px;
     height: 501px;
-    background-image: url(./imagens/cadeira0.png);
     background-repeat: no-repeat;
     margin: 74px auto;
+    transition: 1s;
 }
 
 .anterior {
@@ -392,7 +393,7 @@ footer div a {
     text-align: center;
     line-height: 38px;
     background: transparent;
-    color: #8D8D8D;
+    color: #8d8d8d;
 }
 
 footer div p{
