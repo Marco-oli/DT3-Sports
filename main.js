@@ -24,6 +24,7 @@ function proximo(){
 
 /* Section Player*/
 
+/* Tentei colocar a div em modo Blockassim que clicasse no button, para assim abrir uma tela como se fosse o player (nao consegui :( )*/
 function mostra(id){
     if(document.getElementById(id).style.display == 'none'){
     document.getElementById(id).style.display = 'block';
