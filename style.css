@@ -370,3 +370,82 @@ a {
 .cad-meio {
     opacity: 0.80;
 }
+
+/* Ids e Classes do Footer*/
+
+footer {
+    width: 1920px;
+    height: 261px;
+    display: flex;
+    background-color: #141414;
+    position: absolute;
+    left: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div a {
+    border: 1px solid #4B4B4B;
+    border-radius: 100%;
+    width: 37px;
+    height: 35px;
+    text-align: center;
+    line-height: 38px;
+    background: transparent;
+    color: #8D8D8D;
+}
+
+footer div p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: #8D8D8D;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+footer div span {
+    color: #A5A5A5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+footer div ul {
+    line-height: 26px;
+    margin-top: 21px;
+}
+
+.footer-logo {
+    width: 230px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.redes-sociais {
+    width: 277px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
+    width: 1160px;
+    height: 180px;
+    align-items: flex-start;
+}
+
+.footer-links div {
+    padding-right: 95px;
+}
+
+.footer-links ul li {
+    color: #4B4B4B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+
