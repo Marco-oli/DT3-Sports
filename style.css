@@ -289,7 +289,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-left: -164px;  
+    margin-left: -170px;  
 }
 
 #player div::after {
@@ -307,14 +307,14 @@ a {
     height: 395px;
 }
 
-#player div button {
+button#btn {
     border: 1px solid #FFFFFF;
     width: 106px;
     height: 146px;
     align-items: center;
-    position: absolute;
-    margin-left: 918px;
-    margin-top: 100px;
+    position: relative;
+    margin-left: 840px;
+    margin-top: 205px;
     color: #FFFFFF;
     font-size: 20px;
     background: transparent;
@@ -333,6 +333,17 @@ a {
     margin-top: 512px;
 }
 
+/* video-player */
+
+div#player-video {
+    display: none;
+    height: 360px;
+    width: 640px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
 /*IDS e Classes da section Cadeiras*/
 
 #cadeiras {
@@ -340,8 +351,9 @@ a {
     height: 610px;
     width: 100%;
     justify-content: center;
-    margin-top: 700px;
+    margin-top: 430px;
     text-align: center;
+    
 }
 
 #cadeiras div.anterior {

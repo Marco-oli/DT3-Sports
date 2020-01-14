@@ -24,11 +24,11 @@ function proximo(){
 
 /* Section Player*/
 
-/* Tentei colocar a div em modo Blockassim que clicasse no button, para assim abrir uma tela como se fosse o player (nao consegui :( )*/
-function mostra(id){
-    if(document.getElementById(id).style.display == 'none'){
-    document.getElementById(id).style.display = 'block';
-    }else {
-        document.getElementById(id).style.display ='none';
-    }
+function mostrar(){
+    var video = document.getElementById('player-video');
+    var botao = document.getElementById('btn');
+
+    botao.addEventListener("click", function(){
+        video.style.display = "block";
+    })
 }
